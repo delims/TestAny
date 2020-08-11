@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		4F3B16F524DA9A220020166E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B16F424DA9A220020166E /* main.m */; };
 		4F3B16FD24DA9A690020166E /* utf8_encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B16FC24DA9A690020166E /* utf8_encoding.c */; };
+		4F80594224E2786F00C99DFD /* other_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F80594124E2786F00C99DFD /* other_test.c */; };
+		4FB688FF24DBEE09002CD7E7 /* corefoundation_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB688FE24DBEE09002CD7E7 /* corefoundation_test.m */; };
+		4FB6890224DC0E22002CD7E7 /* yymodel_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB6890124DC0E22002CD7E7 /* yymodel_test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +31,12 @@
 		4F3B16F424DA9A220020166E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F3B16FB24DA9A690020166E /* utf8_encoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utf8_encoding.h; sourceTree = "<group>"; };
 		4F3B16FC24DA9A690020166E /* utf8_encoding.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = utf8_encoding.c; sourceTree = "<group>"; };
+		4F80594024E2786F00C99DFD /* other_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = other_test.h; sourceTree = "<group>"; };
+		4F80594124E2786F00C99DFD /* other_test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = other_test.c; sourceTree = "<group>"; };
+		4FB688FD24DBEE09002CD7E7 /* corefoundation_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = corefoundation_test.h; sourceTree = "<group>"; };
+		4FB688FE24DBEE09002CD7E7 /* corefoundation_test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = corefoundation_test.m; sourceTree = "<group>"; };
+		4FB6890024DC0E22002CD7E7 /* yymodel_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yymodel_test.h; sourceTree = "<group>"; };
+		4FB6890124DC0E22002CD7E7 /* yymodel_test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yymodel_test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,12 @@
 				4F3B16F424DA9A220020166E /* main.m */,
 				4F3B16FB24DA9A690020166E /* utf8_encoding.h */,
 				4F3B16FC24DA9A690020166E /* utf8_encoding.c */,
+				4FB688FD24DBEE09002CD7E7 /* corefoundation_test.h */,
+				4FB688FE24DBEE09002CD7E7 /* corefoundation_test.m */,
+				4FB6890024DC0E22002CD7E7 /* yymodel_test.h */,
+				4FB6890124DC0E22002CD7E7 /* yymodel_test.m */,
+				4F80594024E2786F00C99DFD /* other_test.h */,
+				4F80594124E2786F00C99DFD /* other_test.c */,
 			);
 			path = TestAny;
 			sourceTree = "<group>";
@@ -125,7 +140,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F3B16F524DA9A220020166E /* main.m in Sources */,
+				4FB6890224DC0E22002CD7E7 /* yymodel_test.m in Sources */,
 				4F3B16FD24DA9A690020166E /* utf8_encoding.c in Sources */,
+				4F80594224E2786F00C99DFD /* other_test.c in Sources */,
+				4FB688FF24DBEE09002CD7E7 /* corefoundation_test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
