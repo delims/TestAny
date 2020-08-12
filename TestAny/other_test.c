@@ -13,7 +13,7 @@
 void other_test()
 {
     
-    char str[20];
+    char str[1000000];
     int i, num[256] = {0};
     printf("please input string:");
     scanf("%s",str);

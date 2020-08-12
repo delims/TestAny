@@ -13,12 +13,16 @@
 #import "other_test.h"
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-//        uft8_encoding();
-//        corefoundation_test();
-//        yymodel_test();
-        
-        other_test();
-    }
+//    @autoreleasepool {
+////        uft8_encoding();
+////        corefoundation_test();
+////        yymodel_test();
+//
+////        other_test();
+//
+//    }
+    
+
+    
     return 0;
 }
