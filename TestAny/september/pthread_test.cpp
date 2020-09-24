@@ -117,28 +117,28 @@ void pthread_test(void)
 //    printf("ret = %i \n",ret);
 //    printf("key value = %li \n",*(long *)p);
     
-    pthread_mutexattr_t pthread_attr;
-    pthread_mutexattr_init(&pthread_attr);
-    pthread_mutex_init(&mutex, &pthread_attr);
-    
-    pthread_t pro_thread;
-    pthread_t con_thread;
-    
-    pthread_create(&pro_thread, __DARWIN_NULL, (void*(*)(void*))product, __DARWIN_NULL);
-    pthread_create(&con_thread, __DARWIN_NULL, (void*(*)(void*))consume, __DARWIN_NULL);
-    
-    printf("消费者，%p \n",con_thread);
-    
-    pthread_join(pro_thread, __DARWIN_NULL);
-
-    
-    
-    
-    sem_t sem;
-    
-    sem_init(&sem, 0, 3);
-    sem_post(&sem);
-    sem_wait(&sem);
+//    pthread_mutexattr_t pthread_attr;
+//    pthread_mutexattr_init(&pthread_attr);
+//    pthread_mutex_init(&mutex, &pthread_attr);
+//    
+//    pthread_t pro_thread;
+//    pthread_t con_thread;
+//    
+//    pthread_create(&pro_thread, __DARWIN_NULL, (void*(*)(void*))product, __DARWIN_NULL);
+//    pthread_create(&con_thread, __DARWIN_NULL, (void*(*)(void*))consume, __DARWIN_NULL);
+//    
+//    printf("消费者，%p \n",con_thread);
+//    
+//    pthread_join(pro_thread, __DARWIN_NULL);
+//
+//    
+//    
+//    
+//    sem_t sem;
+//    
+//    sem_init(&sem, 0, 3);
+//    sem_post(&sem);
+//    sem_wait(&sem);
     
 
 }
