@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <pthread/pthread.h>
 #import "utf8_encoding.h"
 #import "corefoundation_test.h"
 #import "yymodel_test.h"
@@ -15,6 +16,8 @@
 #import "sort_algorithm.hpp"
 #import "AVLTree.hpp"
 #import "test_constructor.hpp"
+#import "test_11.hpp"
+//#import "TestAny-Swift.h"
 
 
 //int* singleNumber(int* nums, int numsSize, int* returnSize){
@@ -55,13 +58,27 @@ int main(int argc, const char * argv[]) {
 //
 //    }
     
-    play_tree();
+    printf("main \n");
     
+    
+    
+    printf("%p\n",pthread_self());
+    printf("%p\n",NSThread.currentThread);
+    printf("%i\n",pthread_main_np());
+    printf("%p\n",NSThread.mainThread);
+
+//    play_tree();
 //    pthread_test();
 //    sort_algorithm();
 //    printf("%d\n",1^2);
 //    test_constructor();
     
+//    Alarm::info.speed = 2;
+    
+//    printf("%d\n",Alarm::info.speed);
 
+
+//    test_11();
+    
     return 0;
 }
