@@ -12,7 +12,7 @@
 
 + (void)load
 {
-    printf(" TestObjcClass load invoke \n");
+//    printf(" TestObjcClass load invoke \n");
 }
 
 @end

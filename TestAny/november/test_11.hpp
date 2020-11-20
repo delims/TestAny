@@ -22,6 +22,8 @@ public:
 };
 
 
-
+inline int infunc();
 void test_11();
+
+
 #endif /* test_11_hpp */

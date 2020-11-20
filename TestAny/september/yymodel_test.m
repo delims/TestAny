@@ -27,7 +27,6 @@ void yymodel_test(void)
     
     
     NSLog(@"%@",NSStringFromClass(dictionary.class));
-    
 
     
     CFDictionaryRef dict2 = CFDictionaryCreateMutable(CFAllocatorGetDefault(), 0, &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks);

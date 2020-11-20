@@ -17,7 +17,8 @@
 #import "AVLTree.hpp"
 #import "test_constructor.hpp"
 #import "test_11.hpp"
-//#import "TestAny-Swift.h"
+
+#import "TestAny-Swift.h"
 
 
 //int* singleNumber(int* nums, int numsSize, int* returnSize){
@@ -58,14 +59,12 @@ int main(int argc, const char * argv[]) {
 //
 //    }
     
-    printf("main \n");
-    
-    
-    
-    printf("%p\n",pthread_self());
-    printf("%p\n",NSThread.currentThread);
-    printf("%i\n",pthread_main_np());
-    printf("%p\n",NSThread.mainThread);
+//    printf("main \n");
+//
+//    printf("%p\n",pthread_self());
+//    printf("%p\n",NSThread.currentThread);
+//    printf("%i\n",pthread_main_np());
+//    printf("%p\n",NSThread.mainThread);
 
 //    play_tree();
 //    pthread_test();
@@ -76,9 +75,22 @@ int main(int argc, const char * argv[]) {
 //    Alarm::info.speed = 2;
     
 //    printf("%d\n",Alarm::info.speed);
-
-
-//    test_11();
+    test_11();
+//    November *nov = November.alloc.init;
+//    [nov hello2];
+//
+//    printf("%p \n", @[]);
+//
+//    for (int i = 0;i < 1; i ++) {
+//        printf("%p \n", NSObject.alloc.init);
+//        printf("%p \n", NSArray.alloc.init);
+//        printf("%p \n", NSDictionary.alloc.init);
+//        printf("%p \n", NSString.alloc.init);
+//    }
+//
+//
+//
+//    printf("\n\n");
     
     return 0;
 }

@@ -87,3 +87,149 @@ void other_test()
 }
 
 
+
+
+
+//void bubble_sort(int arr[], int len)
+//{
+//    int i,j,temp;
+//    for (i = 0; i < len -1; i ++)
+//        for (j = 0; j < len -1 -i; j ++)
+//            if (arr[j] > arr[j+1]) {
+//                temp = arr[j];
+//                arr[j] = arr[j+1];
+//                arr[j+1] = temp;
+//            }
+//}
+//
+//void swap(int *a,int *b) //交換兩個變數
+//{
+//    int temp = *a;
+//    *a = *b;
+//    *b = temp;
+//}
+//
+//void selection_sort(int arr[], int len)
+//{
+//    int i,j,min,temp;
+//    for (i = 0; i < len-1; i ++) {
+//        min = i;
+//        for (j = i + 1; j < len; j ++)
+//            if (arr[j] < arr[min])
+//                min = j;
+//        temp = arr[min];
+//        arr[min] = arr[i];
+//        arr[i] = temp;
+//    }
+//}
+//
+//void insertion_sort(int arr[], int len)
+//{
+//    int i,j,key;
+//    for (i = 1; i < len; i ++) {
+//        j = i - 1;
+//        key = arr[i];
+//        while (j >= 0 && arr[j] > key) {
+//            arr[j+1] = arr[j];
+//            j --;
+//        }
+//        arr[j+1] = key;
+//    }
+//}
+
+// struct ListNode {
+//     int val;
+//     struct ListNode *next;
+// };
+//
+//struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
+//    struct ListNode *p = NULL;
+//    struct ListNode *dest = NULL;
+//    int carry = 0;
+//    int sum = 0;
+//    while(l1 || l2 || carry) {
+//        sum = carry;
+//        if (l1) {
+//            sum += l1->val;
+//            l1 =  l1->next;
+//        }
+//        if (l2) {
+//            sum += l2->val;
+//            l2 =  l2->next;
+//        }
+//
+//        struct ListNode *newNode = (struct ListNode*)malloc(sizeof(struct ListNode));
+//        if (p == NULL) p = newNode;
+//        else p->next = newNode;
+//
+//        if (dest == NULL) dest = p;
+//        else p = p->next;
+//        memset(p, 0, sizeof(struct ListNode));
+//
+//        p->val = sum % 10;
+//        carry  = sum / 10;
+//
+//    }
+//
+//    return dest;
+//}
+
+//using namespace std;
+//
+//class Solution {
+//public:
+//    int lengthOfLongestSubstring(string s) {
+//
+//
+//
+//
+//
+//    }
+//};
+
+//extern "C" {
+
+//#include <stdio.h>
+//
+//unsigned long lengthOfLongestSubstring(char * s){
+//    unsigned long max = 0;
+//    unsigned long len = 0;
+//    for(unsigned long i = 0; i < strlen(s); i ++) {
+//        len = 0;
+//        if (max >= strlen(s)-i) return max;
+//        for (unsigned long j = i+1; j < strlen(s); j ++) {
+//            for (unsigned long k = i ; k < j; k ++) {
+//                if (s[k] == s[j]) {
+//                    len = j - i;
+//                    break;
+//                }
+//                if (k == j - 1) {
+//                    len = j - i + 1;
+//                    if (len > max) max = len;
+//                    len = 0;
+//                }
+//            }
+//            if (len > 0) {
+//                if (len > max) max = len;
+//                break;
+//            }
+//        }
+//    }
+//    return max;
+//}
+
+
+
+//double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size){
+//    int leftIndex,rightIndex;
+//    if ((nums1Size + nums2Size) % 2 == 0) {
+//        rightIndex = (nums1Size + nums2Size) / 2;
+//        leftIndex = rightIndex - 1;
+//    } else {
+//        rightIndex = leftIndex = (nums1Size + nums2Size) / 2;
+//    }
+//
+//    int num1 = *(nums1 + nums1Size/2);
+//
+//    return 0.0;
+//}
